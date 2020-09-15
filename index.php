@@ -1,11 +1,10 @@
 <?php
-   $bintang = 10;
-for($a = 1; $a <= $bintang; $a++){
-  for($c=$star; $c >= $a; $c -= 1){
-    
-    echo "*";
-  }
-}
-  
+
+    for($a = 1; $a <= 10; $a++){
+        for($c = $a; $c <=6; $c++){
+            echo "*";
+        }
+        echo "<br>";
+    }
   
 ?>
